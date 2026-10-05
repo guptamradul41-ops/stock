@@ -1,0 +1,8 @@
+{
+    "chat.tools.terminal.autoApprove": {
+        "/^node -e \"const fs=require\\('fs'\\);const s=fs\\.readFileSync\\('hooks/useSeedfolioEffects\\.ts','utf8'\\);const a=s\\.indexOf\\('new Function\\('\\);const q=s\\.indexOf\\('\\\\'',a\\);let e=q\\+1;for\\(;e<s\\.length;e\\+\\+\\)\\{if\\(s\\[e\\]==='\\\\\\\\'\\)\\{e\\+\\+;continue\\}if\\(s\\[e\\]==='\\\\''\\)break\\}const c=eval\\(s\\.slice\\(q,e\\+1\\)\\);const l=c\\.split\\(/\\\\r\\?\\\\n/\\);for\\(let i=210;i<232;i\\+\\+\\)console\\.log\\(\\(i\\+1\\)\\+': '\\+l\\[i\\]\\);\"$/": {
+            "approve": true,
+            "matchCommandLine": true
+        }
+    }
+}

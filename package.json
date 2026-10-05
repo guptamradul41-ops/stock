@@ -1,0 +1,18 @@
+{
+  "name": "seedfolio-workspace",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix seedfolio-app run dev",
+    "build": "npm --prefix seedfolio-app run build",
+    "lint": "npm --prefix seedfolio-app run lint",
+    "preview": "npm --prefix seedfolio-app run preview"
+  },
+  "dependencies": {
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0"
+  }
+}
